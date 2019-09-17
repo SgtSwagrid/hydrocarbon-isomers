@@ -31,17 +31,17 @@ public class Isomers {
         //(This condition ensures completeness and uniqueness.)
         for(Partition partition : new Partitioner(vertices-1, degree, (vertices-1)/2)) {
             
-            BigInteger x = ONE;
+            BigInteger p = ONE;
             //For each size of subtree in this partition.
             for(int[] val : partition) {
                 
                 //Get the number of permutations for this size subtree.
                 BigInteger r = rootedTrees(cache, val[0], degree-1);
                 //Account for multiplicity using multiset combinations.
-                x = x.multiply(multisets(r, valueOf(val[1])));
+                p = p.multiply(multisets(r, valueOf(val[1])));
             }
             //Permutations of each partition sum to total permutations.
-            permutations = permutations.add(x);
+            permutations = permutations.add(p);
         }
         
         //Account for trees composed of two equal-sized subtrees with linked roots.
