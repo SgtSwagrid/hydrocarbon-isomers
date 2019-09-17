@@ -1,2 +1,5 @@
 # hyrdocarbon-isomers
-Isomer counting; The world's best permutation problem.
+Isomer Counting; The world's best permutation problem.
+
+Features a solution for counting alkane isomers.
+I hope to generalize to other hydrocarbons in the future.
