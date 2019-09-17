@@ -1,4 +1,4 @@
-# hyrdocarbon-isomers
+# hydrocarbon-isomers
 
 ### Isomer Counting; The world's best permutation problem.
 
