@@ -4,7 +4,7 @@ An efficient computational solution for counting structural isomers of pure stra
 Alkane/isomer table: https://en.wikipedia.org/wiki/List_of_straight-chain_alkanes
 
 | Alkane Name | No. Carbons | No. Isomers |
-| ... | ... | ... |
+| --- | --- | --- |
 | Methane | 1 | 1 |
 | Ethane | 2 | 1 |
 | Propane | 3 | 1 |
