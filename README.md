@@ -24,7 +24,7 @@ My approach uses [integer partitions](https://en.wikipedia.org/wiki/Partition_%2
 
 #### Counting unrooted trees.
 
-Defines a new notion of 'tree centre', distinct from the traditional definition (so as to avoid any notion of depth), but with similar uniqueness properties. A node is a centre (or bi-centre) if no adjacent subtree exceeds ⌊n/2⌋ nodes. Allows unrooted trees to be counted by only considering rooted trees which are centrally-rooted.
+I define a new notion of 'tree centre', distinct from the traditional definition (so as to avoid any notion of depth), but with similar uniqueness properties. A node is a centre (or bi-centre) if no adjacent subtree exceeds ⌊n/2⌋ nodes. Allows unrooted trees to be counted by only considering rooted trees which are centrally-rooted.
 
 To address any skepticism that my notion of centre is actually both unique and complete, observe that (a) moving along any edge away from a centre would produce, back in the direction travelled from, a tree of size greater than ⌊n/2⌋, and that (b) any tree without a centre could not possibly have a finite number of nodes.
 
