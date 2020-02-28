@@ -1,5 +1,5 @@
 # Counting hydrocarbon isomers.
-## The world's best combinatorics problem.
+### The world's best combinatorics problem.
 
 An efficient computational solution for counting structural isomers of pure straight-chain alkanes, written in Java.
 
