@@ -2,7 +2,8 @@
 ## The world's best combinatorics problem.
 
 An efficient computational solution for counting structural isomers of pure straight-chain alkanes, written in Java.
-[Alkane and isomer table.](hhttps://en.wikipedia.org/wiki/List_of_straight-chain_alkanes)
+
+[Alkane and isomer table.](https://en.wikipedia.org/wiki/List_of_straight-chain_alkanes)
 
 | Alkane | Carbons | Isomers | Alkane | Carbons | Isomers
 | --- | --- | --- | --- | --- | --- |
