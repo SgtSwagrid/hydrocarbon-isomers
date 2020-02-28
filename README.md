@@ -2,24 +2,24 @@
 ## The world's best combinatorics problem.
 
 An efficient computational solution for counting structural isomers of pure straight-chain alkanes, written in Java.
-Alkane/isomer table: https://en.wikipedia.org/wiki/List_of_straight-chain_alkanes
+[Alkane and isomer table.](hhttps://en.wikipedia.org/wiki/List_of_straight-chain_alkanes)
 
-| Alkane Name | No. Carbons | No. Isomers |
-| --- | --- | --- |
-| Methane | 1 | 1 |
-| Ethane | 2 | 1 |
-| Propane | 3 | 1 |
-| Butane | 4 | 2 |
-| Pentane | 5 | 3 |
-| Hexane | 6 | 5 |
-| Heptane | 7 | 9 |
-| Octane | 8 | 18 |
-| Nonane | 9 | 35 |
-| Hexane | 10 | 75 |
+| Alkane | Carbons | Isomers | Alkane | Carbons | Isomers
+| --- | --- | --- | --- | --- | --- |
+| Methane | 1 | 1 | Undecane | 11 | 159
+| Ethane | 2 | 1 | Dodecane | 12 | 355
+| Propane | 3 | 1 | Tridecane | 13 | 802
+| Butane | 4 | 2 | Tetradecane | 14 | 1,858
+| Pentane | 5 | 3 | Pentadecane | 15 | 4,347
+| Hexane | 6 | 5 | Hexadecane | 16 | 10,359
+| Heptane | 7 | 9 | Heptadecane | 17 | 24,894
+| Octane | 8 | 18 | Octadecane | 18 | 60,523
+| Nonane | 9 | 35 | Nonadecane | 19 | 148,284
+| Hexane | 10 | 75 | Icosane | 20 | 366,319
 
 #### Counting rooted trees
 
-First, one should note that all isomers of straight-chain alkanes (which are what is being considered here) are trees (cycle-free).  This is because introducing cycles changes the number of hydrogens, thus disqualifying such molecules from isomer status (Note however that introducing double/triple bonds allows the exchange of these bonds for cycles, making this more general case much more difficult).
+First, one should note that all isomers of straight-chain alkanes (which are what is being considered here) are trees (cycle-free).  This is because introducing cycles changes the number of hydrogens, thus disqualifying such molecules from isomer status. Note however that introducing double/triple bonds allows the exchange of these bonds for cycles, making this more general case much more difficult.
 
 My approach uses [integer partitions](https://en.wikipedia.org/wiki/Partition_%28number_theory%29) and the [multi-choose](https://en.wikipedia.org/wiki/Multiset) function to recursively enumerate rooted subtrees. That is, the number of rooted trees of size n is defined in terms of the number of ways one could generate some number of smaller subtrees using the n-1 vertices which remain after designating a root.
 
