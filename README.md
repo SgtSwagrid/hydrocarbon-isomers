@@ -50,7 +50,9 @@ I created this project for no other reason than that it seemed like an interesti
 #### Related work
 
 Like I said, I also challenged some friends to try this too. Here's a similar solution, written in Python:
+
 https://github.com/TipTaco/AlkaneIsomerSolver
 
 Additionally, the following is a very interesting paper I found on the topic, after finishing my implementation:
+
 https://prod-ng.sandia.gov/techlib-noauth/access-control.cgi/2004/040960.pdf
