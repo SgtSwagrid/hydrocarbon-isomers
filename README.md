@@ -41,7 +41,7 @@ However, in general, where double/triple bonds, or loops (which, for our purpose
 #### Limitations
 
 This method does not account for stereoisomers (especially since I'm not a chemist, and don't really know what these are).
-This method also does not account for molecules which could not exist (despite being a valid graph), due to the limited physical space available to tightly-wound structures. Simulations to test which structures are possible is beyond the scope of this project.
+This method also does not account for molecules which could not exist (despite being a valid graph), due to the limited physical space available to tightly-wound structures. Simulations to test which structures are possible are beyond the scope of this project.
 
 #### Motivation
 
